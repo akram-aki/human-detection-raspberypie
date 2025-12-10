@@ -1,0 +1,58 @@
+# CMake generation dependency list for this directory.
+C:/Users/songo/Desktop/SecurityCam/CMakeLists.txt
+C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/4.2.1/CMakeCCompiler.cmake
+C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/4.2.1/CMakeCXXCompiler.cmake
+C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/4.2.1/CMakeRCCompiler.cmake
+C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/4.2.1/CMakeSystem.cmake
+C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/glslang/glslang-config-version.cmake
+C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/glslang/glslang-config.cmake
+C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/glslang/glslang-targets-release.cmake
+C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/glslang/glslang-targets.cmake
+C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnn-release.cmake
+C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnn.cmake
+C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnnConfig.cmake
+C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnnConfigVersion.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeCInformation.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeCXXInformation.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeGenericSystem.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeRCInformation.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake
+D:/New folder/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake
+D:/New folder/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake
+D:/New folder/share/cmake-4.2/Modules/CheckIncludeFile.cmake
+D:/New folder/share/cmake-4.2/Modules/CheckLibraryExists.cmake
+D:/New folder/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/New folder/share/cmake-4.2/Modules/Compiler/MSVC-C.cmake
+D:/New folder/share/cmake-4.2/Modules/Compiler/MSVC-CXX.cmake
+D:/New folder/share/cmake-4.2/Modules/Compiler/MSVC.cmake
+D:/New folder/share/cmake-4.2/Modules/FindOpenMP.cmake
+D:/New folder/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+D:/New folder/share/cmake-4.2/Modules/FindPackageMessage.cmake
+D:/New folder/share/cmake-4.2/Modules/FindThreads.cmake
+D:/New folder/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake
+D:/New folder/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake
+D:/New folder/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake
+D:/New folder/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake
+D:/New folder/share/cmake-4.2/Modules/Linker/MSVC-C.cmake
+D:/New folder/share/cmake-4.2/Modules/Linker/MSVC-CXX.cmake
+D:/New folder/share/cmake-4.2/Modules/Linker/MSVC.cmake
+D:/New folder/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC-C.cmake
+D:/New folder/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+D:/New folder/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC.cmake
+D:/New folder/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake
+D:/New folder/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake
+D:/New folder/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/New folder/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake
+D:/New folder/share/cmake-4.2/Modules/Platform/Windows.cmake
+D:/New folder/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake
+D:/opencv/build/OpenCVConfig-version.cmake
+D:/opencv/build/OpenCVConfig.cmake
+D:/opencv/build/x64/vc16/lib/OpenCVConfig.cmake
+D:/opencv/build/x64/vc16/lib/OpenCVModules-debug.cmake
+D:/opencv/build/x64/vc16/lib/OpenCVModules-release.cmake
+D:/opencv/build/x64/vc16/lib/OpenCVModules.cmake

@@ -1,0 +1,2330 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/New folder/share/cmake-4.2/Modules/"
+    found: "D:/New folder/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:\\Users\\songo\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.0.3\\resources\\binaries\\win32\\x86_64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console"
+        - "C:/Program Files (x86)/Windows Kits/10/bin\\10.0.20348.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64"
+        - "D:\\siemens\\SCADA-RT_V11\\WinCC\\Bin"
+        - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\Bin"
+        - "C:/Program Files (x86)/Common Files/Siemens/CommonArchiving"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\ACE\\Bin"
+        - "C:/Python312/Scripts/"
+        - "C:\\Python312\\"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/MATLAB/R2018a/runtime/win64"
+        - "C:\\Program Files\\MATLAB\\R2018a\\bin"
+        - "C:/Users/songo/AppData/Local/nvm"
+        - "C:/nvm4w/nodejs"
+        - "C:/Program Files/PKWARE/pkzipc"
+        - "c:\\Users\\songo\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:/Program Files/PuTTY/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "D:/New Folder/bin"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
+        - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\songo\\AppData\\Roaming\\npm"
+        - "C:/Users/songo/.deno/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/songo/AppData/Local/Muse Hub/lib"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts"
+        - "C:\\Users\\songo\\AppData\\Roaming\\Python\\Python312\\Scripts\\django-admin"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/emulator"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+      ENV{INCLUDE}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\include"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.20348.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.20348.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.20348.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.20348.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.20348.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 12/10/2025 3:15:57 PM.
+      
+      Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.67
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/4.2.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/"
+      - "C:/Python312/Scripts/"
+      - "C:/Python312/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2018a/bin/"
+      - "C:/Users/songo/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/PKWARE/PKZIPC/"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "D:/New folder/bin/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/songo/AppData/Roaming/npm/"
+      - "C:/Users/songo/.deno/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:\\Users\\songo\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.0.3\\resources\\binaries\\win32\\x86_64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console"
+        - "C:/Program Files (x86)/Windows Kits/10/bin\\10.0.20348.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64"
+        - "D:\\siemens\\SCADA-RT_V11\\WinCC\\Bin"
+        - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\Bin"
+        - "C:/Program Files (x86)/Common Files/Siemens/CommonArchiving"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\ACE\\Bin"
+        - "C:/Python312/Scripts/"
+        - "C:\\Python312\\"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/MATLAB/R2018a/runtime/win64"
+        - "C:\\Program Files\\MATLAB\\R2018a\\bin"
+        - "C:/Users/songo/AppData/Local/nvm"
+        - "C:/nvm4w/nodejs"
+        - "C:/Program Files/PKWARE/pkzipc"
+        - "c:\\Users\\songo\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:/Program Files/PuTTY/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "D:/New Folder/bin"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
+        - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\songo\\AppData\\Roaming\\npm"
+        - "C:/Users/songo/.deno/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/songo/AppData/Local/Muse Hub/lib"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts"
+        - "C:\\Users\\songo\\AppData\\Roaming\\Python\\Python312\\Scripts\\django-admin"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/emulator"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/"
+      - "C:/Python312/Scripts/"
+      - "C:/Python312/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2018a/bin/"
+      - "C:/Users/songo/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/PKWARE/PKZIPC/"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "D:/New folder/bin/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/songo/AppData/Roaming/npm/"
+      - "C:/Users/songo/.deno/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/lld-link.com"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/lld-link.exe"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/lld-link"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/lld-link.com"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/lld-link.exe"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/lld-link.com"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/lld-link.exe"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/lld-link"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/lld-link.com"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/lld-link.exe"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/lld-link"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/lld-link"
+      - "C:/Python312/Scripts/lld-link.com"
+      - "C:/Python312/Scripts/lld-link.exe"
+      - "C:/Python312/Scripts/lld-link"
+      - "C:/Python312/lld-link.com"
+      - "C:/Python312/lld-link.exe"
+      - "C:/Python312/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/lld-link.com"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/lld-link"
+      - "C:/Program Files/MATLAB/R2018a/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2018a/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2018a/bin/lld-link"
+      - "C:/Users/songo/AppData/Local/nvm/lld-link.com"
+      - "C:/Users/songo/AppData/Local/nvm/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/nvm/lld-link"
+      - "C:/nvm4w/nodejs/lld-link.com"
+      - "C:/nvm4w/nodejs/lld-link.exe"
+      - "C:/nvm4w/nodejs/lld-link"
+      - "C:/Program Files/PKWARE/PKZIPC/lld-link.com"
+      - "C:/Program Files/PKWARE/PKZIPC/lld-link.exe"
+      - "C:/Program Files/PKWARE/PKZIPC/lld-link"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link"
+      - "D:/New folder/bin/lld-link.com"
+      - "D:/New folder/bin/lld-link.exe"
+      - "D:/New folder/bin/lld-link"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/lld-link.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/lld-link"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/lld-link.com"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/lld-link.exe"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/lld-link"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/songo/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/songo/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/songo/AppData/Roaming/npm/lld-link"
+      - "C:/Users/songo/.deno/bin/lld-link.com"
+      - "C:/Users/songo/.deno/bin/lld-link.exe"
+      - "C:/Users/songo/.deno/bin/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/lld-link"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/lld-link.com"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/lld-link.exe"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/lld-link"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/lld-link"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/lld-link"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/lld-link"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:\\Users\\songo\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.0.3\\resources\\binaries\\win32\\x86_64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console"
+        - "C:/Program Files (x86)/Windows Kits/10/bin\\10.0.20348.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64"
+        - "D:\\siemens\\SCADA-RT_V11\\WinCC\\Bin"
+        - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\Bin"
+        - "C:/Program Files (x86)/Common Files/Siemens/CommonArchiving"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\ACE\\Bin"
+        - "C:/Python312/Scripts/"
+        - "C:\\Python312\\"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/MATLAB/R2018a/runtime/win64"
+        - "C:\\Program Files\\MATLAB\\R2018a\\bin"
+        - "C:/Users/songo/AppData/Local/nvm"
+        - "C:/nvm4w/nodejs"
+        - "C:/Program Files/PKWARE/pkzipc"
+        - "c:\\Users\\songo\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:/Program Files/PuTTY/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "D:/New Folder/bin"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
+        - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\songo\\AppData\\Roaming\\npm"
+        - "C:/Users/songo/.deno/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/songo/AppData/Local/Muse Hub/lib"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts"
+        - "C:\\Users\\songo\\AppData\\Roaming\\Python\\Python312\\Scripts\\django-admin"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/emulator"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/"
+      - "C:/Python312/Scripts/"
+      - "C:/Python312/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2018a/bin/"
+      - "C:/Users/songo/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/PKWARE/PKZIPC/"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "D:/New folder/bin/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/songo/AppData/Roaming/npm/"
+      - "C:/Users/songo/.deno/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:\\Users\\songo\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.0.3\\resources\\binaries\\win32\\x86_64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console"
+        - "C:/Program Files (x86)/Windows Kits/10/bin\\10.0.20348.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64"
+        - "D:\\siemens\\SCADA-RT_V11\\WinCC\\Bin"
+        - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\Bin"
+        - "C:/Program Files (x86)/Common Files/Siemens/CommonArchiving"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\ACE\\Bin"
+        - "C:/Python312/Scripts/"
+        - "C:\\Python312\\"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/MATLAB/R2018a/runtime/win64"
+        - "C:\\Program Files\\MATLAB\\R2018a\\bin"
+        - "C:/Users/songo/AppData/Local/nvm"
+        - "C:/nvm4w/nodejs"
+        - "C:/Program Files/PKWARE/pkzipc"
+        - "c:\\Users\\songo\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:/Program Files/PuTTY/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "D:/New Folder/bin"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
+        - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\songo\\AppData\\Roaming\\npm"
+        - "C:/Users/songo/.deno/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/songo/AppData/Local/Muse Hub/lib"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts"
+        - "C:\\Users\\songo\\AppData\\Roaming\\Python\\Python312\\Scripts\\django-admin"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/emulator"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/"
+      - "C:/Python312/Scripts/"
+      - "C:/Python312/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2018a/bin/"
+      - "C:/Users/songo/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/PKWARE/PKZIPC/"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "D:/New folder/bin/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/songo/AppData/Roaming/npm/"
+      - "C:/Users/songo/.deno/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/mt"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/mt.com"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/mt.exe"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/mt"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/mt.com"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/mt.exe"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/mt"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:\\Users\\songo\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.0.3\\resources\\binaries\\win32\\x86_64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console"
+        - "C:/Program Files (x86)/Windows Kits/10/bin\\10.0.20348.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64"
+        - "D:\\siemens\\SCADA-RT_V11\\WinCC\\Bin"
+        - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\Bin"
+        - "C:/Program Files (x86)/Common Files/Siemens/CommonArchiving"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\ACE\\Bin"
+        - "C:/Python312/Scripts/"
+        - "C:\\Python312\\"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/MATLAB/R2018a/runtime/win64"
+        - "C:\\Program Files\\MATLAB\\R2018a\\bin"
+        - "C:/Users/songo/AppData/Local/nvm"
+        - "C:/nvm4w/nodejs"
+        - "C:/Program Files/PKWARE/pkzipc"
+        - "c:\\Users\\songo\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:/Program Files/PuTTY/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "D:/New Folder/bin"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
+        - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\songo\\AppData\\Roaming\\npm"
+        - "C:/Users/songo/.deno/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/songo/AppData/Local/Muse Hub/lib"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts"
+        - "C:\\Users\\songo\\AppData\\Roaming\\Python\\Python312\\Scripts\\django-admin"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/emulator"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/"
+      - "C:/Python312/Scripts/"
+      - "C:/Python312/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2018a/bin/"
+      - "C:/Users/songo/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/PKWARE/PKZIPC/"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "D:/New folder/bin/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/songo/AppData/Roaming/npm/"
+      - "C:/Users/songo/.deno/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:\\Users\\songo\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.0.3\\resources\\binaries\\win32\\x86_64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console"
+        - "C:/Program Files (x86)/Windows Kits/10/bin\\10.0.20348.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64"
+        - "D:\\siemens\\SCADA-RT_V11\\WinCC\\Bin"
+        - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\Bin"
+        - "C:/Program Files (x86)/Common Files/Siemens/CommonArchiving"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\ACE\\Bin"
+        - "C:/Python312/Scripts/"
+        - "C:\\Python312\\"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/MATLAB/R2018a/runtime/win64"
+        - "C:\\Program Files\\MATLAB\\R2018a\\bin"
+        - "C:/Users/songo/AppData/Local/nvm"
+        - "C:/nvm4w/nodejs"
+        - "C:/Program Files/PKWARE/pkzipc"
+        - "c:\\Users\\songo\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:/Program Files/PuTTY/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "D:/New Folder/bin"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
+        - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\songo\\AppData\\Roaming\\npm"
+        - "C:/Users/songo/.deno/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/songo/AppData/Local/Muse Hub/lib"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts"
+        - "C:\\Users\\songo\\AppData\\Roaming\\Python\\Python312\\Scripts\\django-admin"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/emulator"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/New folder/share/cmake-4.2/Modules/"
+    found: "D:/New folder/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:\\Users\\songo\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.0.3\\resources\\binaries\\win32\\x86_64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console"
+        - "C:/Program Files (x86)/Windows Kits/10/bin\\10.0.20348.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64"
+        - "D:\\siemens\\SCADA-RT_V11\\WinCC\\Bin"
+        - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\Bin"
+        - "C:/Program Files (x86)/Common Files/Siemens/CommonArchiving"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\ACE\\Bin"
+        - "C:/Python312/Scripts/"
+        - "C:\\Python312\\"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/MATLAB/R2018a/runtime/win64"
+        - "C:\\Program Files\\MATLAB\\R2018a\\bin"
+        - "C:/Users/songo/AppData/Local/nvm"
+        - "C:/nvm4w/nodejs"
+        - "C:/Program Files/PKWARE/pkzipc"
+        - "c:\\Users\\songo\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:/Program Files/PuTTY/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "D:/New Folder/bin"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
+        - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\songo\\AppData\\Roaming\\npm"
+        - "C:/Users/songo/.deno/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/songo/AppData/Local/Muse Hub/lib"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts"
+        - "C:\\Users\\songo\\AppData\\Roaming\\Python\\Python312\\Scripts\\django-admin"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/emulator"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+      ENV{INCLUDE}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\include"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.20348.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.20348.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.20348.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.20348.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.20348.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 12/10/2025 3:15:58 PM.
+      
+      Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.62
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/4.2.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/"
+      - "C:/Python312/Scripts/"
+      - "C:/Python312/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2018a/bin/"
+      - "C:/Users/songo/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/PKWARE/PKZIPC/"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "D:/New folder/bin/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/songo/AppData/Roaming/npm/"
+      - "C:/Users/songo/.deno/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/lld-link.com"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/lld-link.exe"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/lld-link"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/lld-link.com"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/lld-link.exe"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/lld-link.com"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/lld-link.exe"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/lld-link"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/lld-link.com"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/lld-link.exe"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/lld-link"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/lld-link"
+      - "C:/Python312/Scripts/lld-link.com"
+      - "C:/Python312/Scripts/lld-link.exe"
+      - "C:/Python312/Scripts/lld-link"
+      - "C:/Python312/lld-link.com"
+      - "C:/Python312/lld-link.exe"
+      - "C:/Python312/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/lld-link.com"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/lld-link"
+      - "C:/Program Files/MATLAB/R2018a/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2018a/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2018a/bin/lld-link"
+      - "C:/Users/songo/AppData/Local/nvm/lld-link.com"
+      - "C:/Users/songo/AppData/Local/nvm/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/nvm/lld-link"
+      - "C:/nvm4w/nodejs/lld-link.com"
+      - "C:/nvm4w/nodejs/lld-link.exe"
+      - "C:/nvm4w/nodejs/lld-link"
+      - "C:/Program Files/PKWARE/PKZIPC/lld-link.com"
+      - "C:/Program Files/PKWARE/PKZIPC/lld-link.exe"
+      - "C:/Program Files/PKWARE/PKZIPC/lld-link"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link"
+      - "D:/New folder/bin/lld-link.com"
+      - "D:/New folder/bin/lld-link.exe"
+      - "D:/New folder/bin/lld-link"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/lld-link.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/lld-link"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/lld-link.com"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/lld-link.exe"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/lld-link"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/songo/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/songo/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/songo/AppData/Roaming/npm/lld-link"
+      - "C:/Users/songo/.deno/bin/lld-link.com"
+      - "C:/Users/songo/.deno/bin/lld-link.exe"
+      - "C:/Users/songo/.deno/bin/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/lld-link"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/lld-link.com"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/lld-link.exe"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/lld-link"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/lld-link"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/lld-link"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/lld-link"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:\\Users\\songo\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.0.3\\resources\\binaries\\win32\\x86_64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console"
+        - "C:/Program Files (x86)/Windows Kits/10/bin\\10.0.20348.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64"
+        - "D:\\siemens\\SCADA-RT_V11\\WinCC\\Bin"
+        - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\Bin"
+        - "C:/Program Files (x86)/Common Files/Siemens/CommonArchiving"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\ACE\\Bin"
+        - "C:/Python312/Scripts/"
+        - "C:\\Python312\\"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/MATLAB/R2018a/runtime/win64"
+        - "C:\\Program Files\\MATLAB\\R2018a\\bin"
+        - "C:/Users/songo/AppData/Local/nvm"
+        - "C:/nvm4w/nodejs"
+        - "C:/Program Files/PKWARE/pkzipc"
+        - "c:\\Users\\songo\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:/Program Files/PuTTY/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "D:/New Folder/bin"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
+        - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\songo\\AppData\\Roaming\\npm"
+        - "C:/Users/songo/.deno/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/songo/AppData/Local/Muse Hub/lib"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts"
+        - "C:\\Users\\songo\\AppData\\Roaming\\Python\\Python312\\Scripts\\django-admin"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/emulator"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/New folder/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "D:/New folder/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "D:/New folder/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/siemens/SCADA-RT_V11/WinCC/bin/"
+      - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/Bin/"
+      - "C:/Program Files (x86)/Common Files/Siemens/commonarchiving/"
+      - "C:/Program Files (x86)/Common Files/Siemens/ace/bin/"
+      - "C:/Python312/Scripts/"
+      - "C:/Python312/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2018a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2018a/bin/"
+      - "C:/Users/songo/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/PKWARE/PKZIPC/"
+      - "C:/Users/songo/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "D:/New folder/bin/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
+      - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/songo/AppData/Roaming/npm/"
+      - "C:/Users/songo/.deno/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/songo/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/"
+      - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts/django-admin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/emulator/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/songo/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/New folder/bin/"
+      - "D:/New folder/sbin/"
+      - "D:/New folder/"
+      - "C:/Program Files/SecurityCam/bin/"
+      - "C:/Program Files/SecurityCam/sbin/"
+      - "C:/Program Files/SecurityCam/"
+    searched_directories:
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/rc.com"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/rc.exe"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32/rc"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/rc.com"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/rc.exe"
+      - "C:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.20348.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:\\Users\\songo\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.0.3\\resources\\binaries\\win32\\x86_64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console"
+        - "C:/Program Files (x86)/Windows Kits/10/bin\\10.0.20348.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.42.2/resources/cube-cmake/win32"
+        - "c:/Users/songo/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.0.3/resources/binaries/win32/x86_64"
+        - "D:\\siemens\\SCADA-RT_V11\\WinCC\\Bin"
+        - "C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\Bin"
+        - "C:/Program Files (x86)/Common Files/Siemens/CommonArchiving"
+        - "C:\\Program Files (x86)\\Common Files\\Siemens\\ACE\\Bin"
+        - "C:/Python312/Scripts/"
+        - "C:\\Python312\\"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/MATLAB/R2018a/runtime/win64"
+        - "C:\\Program Files\\MATLAB\\R2018a\\bin"
+        - "C:/Users/songo/AppData/Local/nvm"
+        - "C:/nvm4w/nodejs"
+        - "C:/Program Files/PKWARE/pkzipc"
+        - "c:\\Users\\songo\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:/Program Files/PuTTY/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "D:/New Folder/bin"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
+        - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\songo\\AppData\\Roaming\\npm"
+        - "C:/Users/songo/.deno/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/songo/AppData/Local/Muse Hub/lib"
+        - "C:\\Users\\songo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/songo/AppData/Roaming/Python/Python312/Scripts"
+        - "C:\\Users\\songo\\AppData\\Roaming\\Python\\Python312\\Scripts\\django-admin"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/emulator"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:/Users/songo/AppData/Local/Android/Sdk/tools/bin"
+        - "C:\\Users\\songo\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:/Users/songo/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SecurityCam"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/New folder"
+        - "C:/Program Files/SecurityCam"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-bfbmui"
+      binary: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-bfbmui"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-bfbmui'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d240b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 3:15:59 PM.
+        
+        Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bfbmui\\cmTC_d240b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bfbmui\\Debug\\".
+          Creating directory "cmTC_d240b.dir\\Debug\\cmTC_d240b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d240b.dir\\Debug\\cmTC_d240b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d240b.dir\\Debug\\cmTC_d240b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d240b.dir\\Debug\\\\" /Fd"cmTC_d240b.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\New folder\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d240b.dir\\Debug\\\\" /Fd"cmTC_d240b.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\New folder\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bfbmui\\Debug\\cmTC_d240b.exe" /INCREMENTAL /ILK:"cmTC_d240b.dir\\Debug\\cmTC_d240b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-bfbmui/Debug/cmTC_d240b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-bfbmui/Debug/cmTC_d240b.lib" /MACHINE:X64  /machine:x64 cmTC_d240b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d240b.vcxproj -> C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bfbmui\\Debug\\cmTC_d240b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d240b.dir\\Debug\\cmTC_d240b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d240b.dir\\Debug\\cmTC_d240b.tlog\\cmTC_d240b.lastbuildstate".
+        Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bfbmui\\cmTC_d240b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-xte9nw"
+      binary: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-xte9nw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-xte9nw'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c5478.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 3:16:00 PM.
+        
+        Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xte9nw\\cmTC_c5478.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xte9nw\\Debug\\".
+          Creating directory "cmTC_c5478.dir\\Debug\\cmTC_c5478.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c5478.dir\\Debug\\cmTC_c5478.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c5478.dir\\Debug\\cmTC_c5478.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c5478.dir\\Debug\\\\" /Fd"cmTC_c5478.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\New folder\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c5478.dir\\Debug\\\\" /Fd"cmTC_c5478.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\New folder\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xte9nw\\Debug\\cmTC_c5478.exe" /INCREMENTAL /ILK:"cmTC_c5478.dir\\Debug\\cmTC_c5478.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-xte9nw/Debug/cmTC_c5478.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-xte9nw/Debug/cmTC_c5478.lib" /MACHINE:X64  /machine:x64 cmTC_c5478.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c5478.vcxproj -> C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xte9nw\\Debug\\cmTC_c5478.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c5478.dir\\Debug\\cmTC_c5478.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c5478.dir\\Debug\\cmTC_c5478.tlog\\cmTC_c5478.lastbuildstate".
+        Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xte9nw\\cmTC_c5478.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/New folder/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/FindOpenMP.cmake:333 (try_compile)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
+      - "C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnnConfig.cmake:10 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-cvv2ep"
+      binary: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-cvv2ep"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-cvv2ep'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97ad3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 3:16:01 PM.
+        
+        Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvv2ep\\cmTC_97ad3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvv2ep\\Debug\\".
+          Creating directory "cmTC_97ad3.dir\\Debug\\cmTC_97ad3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_97ad3.dir\\Debug\\cmTC_97ad3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_97ad3.dir\\Debug\\cmTC_97ad3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /openmp /Fo"cmTC_97ad3.dir\\Debug\\\\" /Fd"cmTC_97ad3.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvv2ep\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /openmp /Fo"cmTC_97ad3.dir\\Debug\\\\" /Fd"cmTC_97ad3.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvv2ep\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvv2ep\\Debug\\cmTC_97ad3.exe" /INCREMENTAL /ILK:"cmTC_97ad3.dir\\Debug\\cmTC_97ad3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-cvv2ep/Debug/cmTC_97ad3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-cvv2ep/Debug/cmTC_97ad3.lib" /MACHINE:X64  /machine:x64 cmTC_97ad3.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_97ad3.vcxproj -> C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvv2ep\\Debug\\cmTC_97ad3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_97ad3.dir\\Debug\\cmTC_97ad3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_97ad3.dir\\Debug\\cmTC_97ad3.tlog\\cmTC_97ad3.lastbuildstate".
+        Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvv2ep\\cmTC_97ad3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.67
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/FindOpenMP.cmake:333 (try_compile)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
+      - "C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnnConfig.cmake:10 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-ydit1j"
+      binary: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-ydit1j"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-ydit1j'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a3e77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 3:16:02 PM.
+        
+        Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydit1j\\cmTC_a3e77.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydit1j\\Debug\\".
+          Creating directory "cmTC_a3e77.dir\\Debug\\cmTC_a3e77.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a3e77.dir\\Debug\\cmTC_a3e77.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a3e77.dir\\Debug\\cmTC_a3e77.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /openmp /Fo"cmTC_a3e77.dir\\Debug\\\\" /Fd"cmTC_a3e77.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydit1j\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /openmp /Fo"cmTC_a3e77.dir\\Debug\\\\" /Fd"cmTC_a3e77.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydit1j\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydit1j\\Debug\\cmTC_a3e77.exe" /INCREMENTAL /ILK:"cmTC_a3e77.dir\\Debug\\cmTC_a3e77.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-ydit1j/Debug/cmTC_a3e77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-ydit1j/Debug/cmTC_a3e77.lib" /MACHINE:X64  /machine:x64 cmTC_a3e77.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_a3e77.vcxproj -> C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydit1j\\Debug\\cmTC_a3e77.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a3e77.dir\\Debug\\cmTC_a3e77.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a3e77.dir\\Debug\\cmTC_a3e77.tlog\\cmTC_a3e77.lastbuildstate".
+        Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydit1j\\cmTC_a3e77.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/FindOpenMP.cmake:574 (try_compile)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindOpenMP.cmake:714 (_OPENMP_GET_SPEC_DATE)"
+      - "C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnnConfig.cmake:10 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-u16fd4"
+      binary: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-u16fd4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-u16fd4'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8a4ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 3:16:03 PM.
+        
+        Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u16fd4\\cmTC_8a4ee.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u16fd4\\Debug\\".
+          Creating directory "cmTC_8a4ee.dir\\Debug\\cmTC_8a4ee.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8a4ee.dir\\Debug\\cmTC_8a4ee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8a4ee.dir\\Debug\\cmTC_8a4ee.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /openmp /Fo"cmTC_8a4ee.dir\\Debug\\\\" /Fd"cmTC_8a4ee.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u16fd4\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /openmp /Fo"cmTC_8a4ee.dir\\Debug\\\\" /Fd"cmTC_8a4ee.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u16fd4\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u16fd4\\Debug\\cmTC_8a4ee.exe" /INCREMENTAL /ILK:"cmTC_8a4ee.dir\\Debug\\cmTC_8a4ee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-u16fd4/Debug/cmTC_8a4ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-u16fd4/Debug/cmTC_8a4ee.lib" /MACHINE:X64  /machine:x64 cmTC_8a4ee.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_8a4ee.vcxproj -> C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u16fd4\\Debug\\cmTC_8a4ee.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8a4ee.dir\\Debug\\cmTC_8a4ee.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8a4ee.dir\\Debug\\cmTC_8a4ee.tlog\\cmTC_8a4ee.lastbuildstate".
+        Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u16fd4\\cmTC_8a4ee.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/FindOpenMP.cmake:574 (try_compile)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindOpenMP.cmake:714 (_OPENMP_GET_SPEC_DATE)"
+      - "C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnnConfig.cmake:10 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-frcm18"
+      binary: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-frcm18"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-frcm18'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c1a78.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 3:16:04 PM.
+        
+        Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frcm18\\cmTC_c1a78.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frcm18\\Debug\\".
+          Creating directory "cmTC_c1a78.dir\\Debug\\cmTC_c1a78.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c1a78.dir\\Debug\\cmTC_c1a78.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c1a78.dir\\Debug\\cmTC_c1a78.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /openmp /Fo"cmTC_c1a78.dir\\Debug\\\\" /Fd"cmTC_c1a78.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frcm18\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /openmp /Fo"cmTC_c1a78.dir\\Debug\\\\" /Fd"cmTC_c1a78.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frcm18\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frcm18\\Debug\\cmTC_c1a78.exe" /INCREMENTAL /ILK:"cmTC_c1a78.dir\\Debug\\cmTC_c1a78.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-frcm18/Debug/cmTC_c1a78.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-frcm18/Debug/cmTC_c1a78.lib" /MACHINE:X64  /machine:x64 cmTC_c1a78.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_c1a78.vcxproj -> C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frcm18\\Debug\\cmTC_c1a78.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c1a78.dir\\Debug\\cmTC_c1a78.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c1a78.dir\\Debug\\cmTC_c1a78.tlog\\cmTC_c1a78.lastbuildstate".
+        Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frcm18\\cmTC_c1a78.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.69
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "D:/New folder/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnnConfig.cmake:16 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-asznh8"
+      binary: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-asznh8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-asznh8'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bbce5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 3:16:05 PM.
+        
+        Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\cmTC_bbce5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\Debug\\".
+          Creating directory "cmTC_bbce5.dir\\Debug\\cmTC_bbce5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bbce5.dir\\Debug\\cmTC_bbce5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bbce5.dir\\Debug\\cmTC_bbce5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bbce5.dir\\Debug\\\\" /Fd"cmTC_bbce5.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bbce5.dir\\Debug\\\\" /Fd"cmTC_bbce5.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\src.c"
+          src.c
+        C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\cmTC_bbce5.vcxproj]
+        Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\cmTC_bbce5.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\cmTC_bbce5.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asznh8\\cmTC_bbce5.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnnConfig.cmake:16 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-5ke8p2"
+      binary: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-5ke8p2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-5ke8p2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b8707.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 3:16:05 PM.
+        
+        Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ke8p2\\cmTC_b8707.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ke8p2\\Debug\\".
+          Creating directory "cmTC_b8707.dir\\Debug\\cmTC_b8707.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b8707.dir\\Debug\\cmTC_b8707.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b8707.dir\\Debug\\cmTC_b8707.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b8707.dir\\Debug\\\\" /Fd"cmTC_b8707.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ke8p2\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b8707.dir\\Debug\\\\" /Fd"cmTC_b8707.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ke8p2\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ke8p2\\Debug\\cmTC_b8707.exe" /INCREMENTAL /ILK:"cmTC_b8707.dir\\Debug\\cmTC_b8707.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-5ke8p2/Debug/cmTC_b8707.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-5ke8p2/Debug/cmTC_b8707.lib" /MACHINE:X64  /machine:x64 cmTC_b8707.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ke8p2\\cmTC_b8707.vcxproj]
+        Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ke8p2\\cmTC_b8707.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ke8p2\\cmTC_b8707.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ke8p2\\cmTC_b8707.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/New folder/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "D:/New folder/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "C:/Users/songo/Downloads/ncnn-20250916-windows-vs2022/x64/lib/cmake/ncnn/ncnnConfig.cmake:16 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-3luurb"
+      binary: "C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-3luurb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-3luurb'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_abfe7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 3:16:06 PM.
+        
+        Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3luurb\\cmTC_abfe7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3luurb\\Debug\\".
+          Creating directory "cmTC_abfe7.dir\\Debug\\cmTC_abfe7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_abfe7.dir\\Debug\\cmTC_abfe7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_abfe7.dir\\Debug\\cmTC_abfe7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_abfe7.dir\\Debug\\\\" /Fd"cmTC_abfe7.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3luurb\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_abfe7.dir\\Debug\\\\" /Fd"cmTC_abfe7.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3luurb\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3luurb\\Debug\\cmTC_abfe7.exe" /INCREMENTAL /ILK:"cmTC_abfe7.dir\\Debug\\cmTC_abfe7.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-3luurb/Debug/cmTC_abfe7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/songo/Desktop/SecurityCam/build/CMakeFiles/CMakeScratch/TryCompile-3luurb/Debug/cmTC_abfe7.lib" /MACHINE:X64  /machine:x64 cmTC_abfe7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3luurb\\cmTC_abfe7.vcxproj]
+        Done Building Project "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3luurb\\cmTC_abfe7.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3luurb\\cmTC_abfe7.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\songo\\Desktop\\SecurityCam\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3luurb\\cmTC_abfe7.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 1
+...

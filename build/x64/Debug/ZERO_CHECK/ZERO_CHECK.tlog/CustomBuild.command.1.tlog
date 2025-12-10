@@ -1,0 +1,10 @@
+^C:\USERS\SONGO\DESKTOP\SECURITYCAM\BUILD\CMAKEFILES\ADA94197D9FBEE13555D576BC48F123E\GENERATE.STAMP.RULE
+setlocal
+"D:\New folder\bin\cmake.exe" -SC:/Users/songo/Desktop/SecurityCam -BC:/Users/songo/Desktop/SecurityCam/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/songo/Desktop/SecurityCam/build/SecurityCam.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

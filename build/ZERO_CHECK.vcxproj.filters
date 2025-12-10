@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\songo\Desktop\SecurityCam\build\CMakeFiles\ada94197d9fbee13555d576bc48f123e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A7263D86-1ABC-3FC4-9E0A-FB4A8E21D92E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
